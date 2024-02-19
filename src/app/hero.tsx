@@ -1,6 +1,6 @@
 "use client";
 
-import { Image, Container, Title, Button, Group, Text, List, ThemeIcon, rem } from '@mantine/core';
+import { Image, Container, Title, Button, Group, Text } from '@mantine/core';
 import classes from './hero.module.css';
 
 export function Hero() {
