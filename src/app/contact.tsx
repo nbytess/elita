@@ -10,7 +10,7 @@ import { ContactIconsList } from './contactIcons';
 export function Contact() {
     return (
         <Container className={classes.wrapper} id="kontakt">
-          <Stack align="center">
+          <Stack align="center" spacing="xl">
               <Title className={classes.title} order={2}>Kontakt:</Title>
               <ContactIconsList />
           </Stack>
