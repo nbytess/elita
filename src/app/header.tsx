@@ -67,7 +67,7 @@ export function Header() {
     return (
         <header className={classes.header}>
           <Container size="md" className={classes.inner}>
-            <Image src="/elita-logo.png" height={150} width={250} />
+            <Image src="/elita-logo.png" height={150} width={250} alt='Elita' />
              <Group gap={5} visibleFrom="xs">
               {items}
             </Group> 

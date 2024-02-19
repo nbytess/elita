@@ -39,7 +39,7 @@ export function FooterSimple() {
       return (
         <div className={classes.footer}>
           <Container className={classes.inner}>
-            <Image src="/elita-logo.png" height={150} width={250} />
+            <Image src="/elita-logo.png" height={150} width={250} alt='Elita' />
             <Group className={classes.links}>{items}</Group>
           </Container>
         </div>

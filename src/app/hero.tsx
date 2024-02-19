@@ -6,7 +6,11 @@ import classes from './hero.module.css';
 export function Hero() {
 
   const scrollToSection = () => {
-      document.getElementById('oferta').scrollIntoView({ behavior: 'smooth' });
+    const oferta = document.getElementById('oferta');
+
+    if (oferta) {
+      oferta.scrollIntoView({ behavior: 'smooth' });
+    }
   };
     return (
         <Container size="md" id="info">
