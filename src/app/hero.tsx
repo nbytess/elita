@@ -28,7 +28,7 @@ export function Hero() {
                 </Button>
               </Group>
             </div>
-            <Image src="/car.png" className={classes.image} />
+            <Image src="/car.png" className={classes.image} alt="" />
           </div>
         </Container>
       );
