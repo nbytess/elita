@@ -1,7 +1,7 @@
 "use client";
 
 import { SimpleGrid, Card, Text, Container, Button, Collapse } from '@mantine/core';
-import classes from './OfferCards.module.css';
+import classes from './offerCards.module.css';
 import React, { useState } from 'react';
 
 const mockdata = [
